@@ -140,3 +140,25 @@ hr {
     padding: 5px;
 
 }
+
+/* Media Queries */
+@media screen and (max-width:576px) {
+
+    .top-player,
+    .blogs,
+    .latest-course {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .first,
+    .second {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top-blog {
+        width: 40%;
+    }
+
+}
